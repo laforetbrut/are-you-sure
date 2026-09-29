@@ -1,0 +1,32 @@
+# Claude and QA artefacts
+.claude/
+CLAUDE.md
+test-procedures/
+TEST_PROCEDURE_*.html
+ERROR_LOG.md
+
+# Gradle
+.gradle/
+build/
+bin/
+run/
+run-data/
+runs/
+repo/
+src/generated/**/.cache
+
+# IDE
+.idea/
+.vscode/
+.eclipse/
+*.iml
+*.ipr
+*.iws
+out/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db

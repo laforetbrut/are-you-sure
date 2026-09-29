@@ -1,0 +1,33 @@
+name: Bug report
+description: Something does not work as intended (the captchas are intended).
+labels: [bug]
+body:
+  - type: dropdown
+    id: target
+    attributes:
+      label: Version
+      options:
+        - NeoForge 1.21.1
+        - Forge 1.21.1
+        - NeoForge 26.1.2
+        - Forge 26.1.2
+    validations:
+      required: true
+  - type: input
+    id: loader
+    attributes:
+      label: Loader version
+      placeholder: e.g. 21.1.252
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, expected and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Logs
+      description: Paste latest.log or a crash report link.
+      render: shell

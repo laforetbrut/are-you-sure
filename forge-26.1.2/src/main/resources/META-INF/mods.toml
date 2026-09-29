@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[64,)"
+license="MIT"
+
+[[mods]]
+modId="areyousure"
+version="1.0.0"
+displayName="Are You Sure?"
+displayTest="IGNORE_ALL_VERSION"
+authors="vyrriox"
+description='''
+Every action asks if you are really sure, then makes you solve a captcha. Breaking a block, opening a chest, attacking, placing: nothing escapes the confirmation.
+'''
+
+[[dependencies.areyousure]]
+    modId="forge"
+    mandatory=true
+    versionRange="[64,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.areyousure]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.1.2,26.2)"
+    ordering="NONE"
+    side="BOTH"
